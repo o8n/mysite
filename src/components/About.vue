@@ -1,24 +1,28 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <!-- <h2>okamotchan</h2> -->
+  <div class="about">
+    <h2>{{ msg }}</h2>
   </div>
 </template>
 
 <script>
+// @ is an alias to /src
+// import About from '@/components/About.vue'
+
 export default {
-  name: 'HelloWorld',
+  name: 'About',
+  // components: {
+  //   About
+  // },
   data () {
     return {
-      msg: 'o8n portfolio site',
+      msg: 'okamotchanです',
     }
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h2 {
   font-weight: normal;
 }
 ul {
