@@ -5,14 +5,13 @@
         <h2 class="site-title">
           <router-link to="/">o8n site</router-link>
         </h2>
-      </header>
       <img src="./assets/okamotchan.png">
-      <div id="nav">
-        <router-link to="/about">About</router-link>
-      </div>
+        <div id="nav">
+          <router-link to="/about">About</router-link>
+        </div>
+      <router-view/>
+      </header>
     </div>
-    <router-view/>
-
     <div class="sns-box">
         <a href="https://twitter.com/okamotchan_" class="sns-link" target="_blank">
           <font-awesome-icon :icon='["fab", "twitter"]' />
@@ -25,9 +24,9 @@
         </a>
     </div>
 
-    <!-- <footer>
+    <footer>
       <div class="copyright-box">©️ 2019 o8n</div>
-    </footer> -->
+    </footer>
   </div>
 </template>
 

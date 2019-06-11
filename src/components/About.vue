@@ -1,10 +1,9 @@
 <template>
   <div id="about">
-    <h4>{{ msg }}</h4>
-    
     <div class="container">
-      <p>エンジニアかもしれないんですけど自信がないです</p>
-      <a href="https://okamotchan.hatenablog.com" class="href">日記</a>
+      <p>エンジニアかもしれないけど自信がない{{ msg }}</p>
+      <a href="https://okamotchan.hatenablog.com" class="href">日記</a> |
+      <a href="https://scrapbox.io/okamotchan/" class="href">掃き溜め</a>
     </div>
   </div>
 </template>
@@ -20,7 +19,7 @@ export default {
   // },
   data () {
     return {
-      msg: 'okamotchanです',
+      msg: 'okamotchan',
     }
   }
 }
