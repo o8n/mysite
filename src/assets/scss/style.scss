@@ -34,11 +34,21 @@ $b-large-min: $b-medium-max+1;
 .sns-box {
   margin-top: 20px;
   text-align: center;
+  display: block;
  }
 .sns-link {
-  margin: 0 5px;
-  font-size: 30px;
-  color: #666;
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  background: rgba($color: #20c997, $alpha: 1.0);
+  width: 52px;
+  height: 52px;
+  padding-top: 13px;
+  border-radius: 50%;
+  color: #e3e3e3;
+  font-size: 24px;
+  margin: 0 20px;
+  
 
   &:hover {
     color: #444;

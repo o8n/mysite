@@ -14,20 +14,20 @@
     <router-view/>
 
     <div class="sns-box">
-      <a class="sns-link" href="https://twitter.com/okamotchan_" target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a class="sns-link" href="https://github.com/okamotchan" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-      <a class="sns-link" href="https://instagram.com/0kam0tchan" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
+        <a href="https://twitter.com/okamotchan_" class="sns-link" target="_blank">
+          <font-awesome-icon :icon='["fab", "twitter"]' />
+        </a>
+        <a href="https://github.com/okamotchan" class="sns-link" target="_blank">
+          <font-awesome-icon :icon='["fab", "github"]' />
+        </a>
+        <a href="https://instagram.com/0kam0tchan" class="sns-link" target="_blank">
+          <font-awesome-icon :icon='["fab", "instagram"]' />
+        </a>
     </div>
 
-    <footer>
+    <!-- <footer>
       <div class="copyright-box">©️ 2019 o8n</div>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
