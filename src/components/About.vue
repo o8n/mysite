@@ -1,6 +1,11 @@
 <template>
-  <div class="about">
-    <h2>{{ msg }}</h2>
+  <div id="about">
+    <h4>{{ msg }}</h4>
+    
+    <div class="container">
+      <p>エンジニアかもしれないんですけど自信がないです</p>
+      <a href="https://okamotchan.hatenablog.com" class="href">日記</a>
+    </div>
   </div>
 </template>
 
