@@ -2,7 +2,7 @@
   <div id="about">
     <div class="container">
       <p>エンジニアかもしれないけど自信がない{{ msg }}</p>
-      <a href="https://okamotchan.hatenablog.com" class="href">日記</a> |
+      <a href="https://nikogory.hatenablog.com/" class="href">日記</a> |
       <a href="https://scrapbox.io/okamotchan/" class="href">掃き溜め</a>
     </div>
   </div>
