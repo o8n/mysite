@@ -6,12 +6,13 @@
           <router-link to="/">o8n site</router-link>
         </h2>
       <img src="./assets/okamotchan.png">
-        <div id="nav">
-          <router-link to="/about">About</router-link>
-        </div>
       <router-view/>
       </header>
     </div>
+    <div id="nav">
+          <router-link to="/about">About</router-link> |
+          <router-link to="/skill">Skill</router-link>
+        </div>
     <div class="sns-box">
         <a href="https://twitter.com/okamotchan_" class="sns-link" target="_blank">
           <font-awesome-icon :icon='["fab", "twitter"]' />

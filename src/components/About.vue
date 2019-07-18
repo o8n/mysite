@@ -1,9 +1,9 @@
 <template>
   <div id="about">
     <div class="container">
-      <p>エンジニアかもしれないけど自信がない{{ msg }}</p>
-      <a href="https://nikogory.hatenablog.com/" class="href">日記</a> |
-      <a href="https://scrapbox.io/okamotchan/" class="href">掃き溜め</a>
+      <p>I'm intersted in Web</p>
+      <a href="https://nikogory.hatenablog.com/" class="href">tech blog</a> |
+      <a href="https://scrapbox.io/okamotchan/" class="href">scrapbox</a>
     </div>
   </div>
 </template>

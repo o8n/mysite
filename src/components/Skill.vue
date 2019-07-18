@@ -1,6 +1,9 @@
 <template>
-  <div class="skill">
-    <p>SKILL</p>
+  <div id="skill">
+    <div class="container">
+      <p>Ruby, Ruby on Rails</p>
+      <p>Git</p>
+    </div>
   </div>
 </template>
 
