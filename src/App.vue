@@ -10,13 +10,9 @@
       </header>
     </div>
     <div id="nav">
-          <router-link to="/about">About</router-link> |
-          <router-link to="/skill">Skill</router-link>
+          <router-link to="/about">About</router-link>
         </div>
     <div class="sns-box">
-        <a href="https://twitter.com/okamotchan_" class="sns-link" target="_blank">
-          <font-awesome-icon :icon='["fab", "twitter"]' />
-        </a>
         <a href="https://github.com/okamotchan" class="sns-link" target="_blank">
           <font-awesome-icon :icon='["fab", "github"]' />
         </a>

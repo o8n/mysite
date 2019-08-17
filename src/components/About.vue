@@ -1,9 +1,15 @@
 <template>
   <div id="about">
     <div class="container">
-      <p>I'm intersted in Web</p>
-      <a href="https://nikogory.hatenablog.com/" class="href">tech blog</a> |
-      <a href="https://scrapbox.io/okamotchan/" class="href">scrapbox</a>
+      <p>I'm a student, intersted in Web</p>
+      <p>Skill: Ruby, Rails</p>
+      <button v-on:click="doChangeState(item)">
+        <a href="https://nikogory.hatenablog.com/" class="href">tech blog</a>
+      </button>
+
+      <button v-on:click="doChangeState(item)">
+        <a href="https://scrapbox.io/okamotchan/" class="href">scrapbox</a>
+      </button>
     </div>
   </div>
 </template>
