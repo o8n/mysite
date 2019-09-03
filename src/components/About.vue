@@ -8,7 +8,7 @@
       </button>
 
       <button v-on:click="doChangeState(item)">
-        <a href="https://scrapbox.io/okamotchan/" class="href">scrapbox</a>
+        <a href="https://scrapbox.io/okamotchan/" class="href">Scrapbox</a>
       </button>
 
       <button v-on:click="doChangeState(item)">
