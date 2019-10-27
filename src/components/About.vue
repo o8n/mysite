@@ -1,21 +1,17 @@
 <template>
-  <div id="about">
+  <!-- <div id="about">
     <div class="container">
       <p>I'm a student, intersted in Web</p>
       <p>Skill: Ruby, Rails</p>
-      <button v-on:click="doChangeState(item)">
-        <a href="https://nikogory.hatenablog.com/" class="href">tech blog</a>
-      </button>
+      <b-button pill variant="outline-secondary">
+        <a href="https://nikogory.hatenablog.com/" class="href" size="sm">blog</a>
+      </b-button>
 
-      <button v-on:click="doChangeState(item)">
-        <a href="https://scrapbox.io/okamotchan/" class="href">Scrapbox</a>
-      </button>
-
-      <button v-on:click="doChangeState(item)">
-        <a href="https://okamotchan.hatenablog.com" class="href">hobby blog</a>
-      </button>
+      <b-button pill variant="outline-secondary">
+        <a href="https://scrapbox.io/okamotchan/" class="href" size="sm">Scrapbox</a>
+      </b-button>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
