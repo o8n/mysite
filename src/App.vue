@@ -14,11 +14,11 @@
     <div class="container">
       <p>I'm a student, intersted in Web</p>
       <p>Skill: Ruby, Rails, etc</p>
-      <b-button pill variant="success">
+      <b-button pill variant="outline-secondary">
         <a href="https://nikogory.hatenablog.com/" class="href" size="sm">blog</a>
       </b-button>
 
-      <b-button pill variant="success">
+      <b-button pill variant="outline-secondary">
         <a href="https://scrapbox.io/okamotchan/" class="href" size="sm">memo</a>
       </b-button>
     </div>
@@ -63,7 +63,7 @@ export default {
 }
 
 a {
-  color: white;
+  color: #20c997;
 }
 
 p {
