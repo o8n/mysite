@@ -1,17 +1,21 @@
 <template>
-  <!-- <div id="about">
+  <div id="skill">
     <div class="container">
-      <p>I'm a student, intersted in Web</p>
-      <p>Skill: Ruby, Rails</p>
-      <b-button pill variant="outline-secondary">
+      <h1>About</h1>
+      <p>okamotchanと申します。</p>
+      <h2>制作物</h2>
+        - ほげ
+        <h3>ほげ</h3>
+      <p>okamotchan</p>
+      <!-- <b-button pill variant="outline-secondary">
         <a href="https://nikogory.hatenablog.com/" class="href" size="sm">blog</a>
       </b-button>
 
       <b-button pill variant="outline-secondary">
-        <a href="https://scrapbox.io/okamotchan/" class="href" size="sm">Scrapbox</a>
-      </b-button>
+        <a href="https://scrapbox.io/okamotchan/" class="href" size="sm">memo</a>
+      </b-button> -->
     </div>
-  </div> -->
+  </div>
 </template>
 
 <script>
@@ -21,7 +25,7 @@
 export default {
   name: 'About',
   // components: {
-  //   About
+  //   about
   // },
   data () {
     return {
@@ -47,3 +51,4 @@ a {
   color: #42b983;
 }
 </style>
+

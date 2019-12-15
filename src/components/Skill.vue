@@ -9,12 +9,12 @@
 
 <script>
 // @ is an alias to /src
-import Skill from '@/components/Skill.vue'
+// import skill from '@/components/skill.vue'
 
-export default {
-  name: 'skill',
-  components: {
-    Skill
-  }
-}
+// export default {
+//   name: 'skill',
+//   components: {
+//     skill
+//   }
+// }
 </script>
