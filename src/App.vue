@@ -9,13 +9,16 @@
       <router-view/>
       </header>
     </div>
-    <div id="nav">
-      <router-link to="/"></router-link>
-      <router-link to="/about">about</router-link> /
-      <router-link to="/skill">skill</router-link>
-    </div>
 
   <footer>
+    <b-button pill variant="outline-secondary">
+        <a href="/about" class="href" size="sm">about</a>
+    </b-button>
+
+    <b-button pill variant="outline-secondary">
+      <a href="/skill" class="href" size="sm">skill</a>
+    </b-button>
+
     <div class="copyright-box">©️ 2019 o8n</div>
   </footer>
 
