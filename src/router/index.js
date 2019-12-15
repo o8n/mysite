@@ -1,20 +1,23 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import About from '@/components/About'
+import Vue from 'vue';
+import Router from 'vue-router';
+import about from '@/components/about';
+import skill from '@/components/skill';
+import home from '@/components/home';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
+  mode:'history',
   routes: [
     {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }, {
       path: '/about',
-      name: 'About',
-      component: About
+      component: about
+    }, {
+      path: '/skill',
+      component: skill
+    },{
+      path: '/',
+      components: home
     }
   ]
-})
+});

@@ -1,6 +1,6 @@
 # mysite
 
-> Vue-cliとnetlifyで作っている自分のページ
+> self introduction
 
 ## Build Setup
 
