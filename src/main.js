@@ -1,22 +1,24 @@
-import Vue from 'vue';
-import BootstrapVue from 'bootstrap-vue';
-import App from './App.vue';
-import router from './router/router';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-library.add(fab);
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+import App from './App.vue'
+import router from './router'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+library.add(fab)
 
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap-vue/dist/bootstrap-vue.css';
-import './assets/scss/style.scss';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import './assets/scss/style.scss'
 
-Vue.component('font-awesome-icon', FontAwesomeIcon);
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
-Vue.use(BootstrapVue);
+Vue.use(BootstrapVue)
 
 /* eslint-disable no-new */
 new Vue({
@@ -24,4 +26,4 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-});
+})
