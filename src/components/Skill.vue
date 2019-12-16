@@ -1,6 +1,5 @@
 <template>
   <div id="skill">
-    
     <div class="container">
     <h2 >#skill</h2>
     <h5>
@@ -12,9 +11,7 @@
         <li>Git</li>
         <li>PostgreSQL and more..</li>
         <p></p>
-      
     </h5>
-
     <p></p>
     <p></p>
     <p></p>
@@ -86,8 +83,6 @@
 
     <b-button href="https://mecelo.com" variant="primary">Go mecelo.com</b-button>
   </b-card>
-
-  
     </div>
   </div>
 </template>
@@ -115,4 +110,3 @@ h2,h3, h5 {
   text-align: right;
 }
 </style>
-

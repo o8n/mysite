@@ -41,24 +41,24 @@ export default {
     return {
       fields: ['name', 'where', 'job', 'university', 'major', 'like', '愛しい推しの皆様'],
       items: [
-          { 
-            name: 'okamotchan',
-            where: 'Nara & Kyoto, Japan',
-            job: 'Student(B3), Web developer',
-            university: 'Doshisha University',
-            major: 'Economics', 
-            like: 'ハロー!プロジェクト、銭湯、音楽', 
-            愛しい推しの皆様: '段原瑠々 森戸知沙希 浜浦彩乃 伊勢鈴蘭  広本瑠璃 矢島舞美 つんく'
-          }
-        ],
+        {
+          name: 'okamotchan',
+          where: 'Nara & Kyoto, Japan',
+          job: 'Student(B3), Web developer',
+          university: 'Doshisha University',
+          major: 'Economics',
+          like: 'ハロー!プロジェクト 銭湯 音楽',
+          愛しい推しの皆様: '段原瑠々 森戸知沙希 浜浦彩乃 伊勢鈴蘭  広本瑠璃 矢島舞美 つんく'
+        }
+      ],
       sns: ['github', 'blog', 'scrapbox', 'mail'],
       links: [
         {
-          github: 'https://github.com/okamotchan', 
-          blog: 'http://nikogory.hatenablog.com', 
-          scrapbox:'https://scrapbox.io/okamotchan',
+          github: 'https://github.com/okamotchan',
+          blog: 'http://nikogory.hatenablog.com',
+          scrapbox: 'https://scrapbox.io/okamotchan',
           mail: 'm.okamotchan@gmail.com'
-      }
+        }
       ]
     }
   }
@@ -84,4 +84,3 @@ a {
   color: #42b983;
 }
 </style>
-

@@ -1,5 +1,4 @@
 <template>
-  
   <div id="app">
     <div class="header-outer">
       <header>
@@ -26,9 +25,9 @@
 </template>
 
 <script>
-import skill from "./components/skill.vue";
-import about from "./components/about.vue";
-import home from '@/components/home';
+import skill from '@/components/skill.vue'
+import about from '@/components/about.vue'
+import home from '@/components/home'
 
 export default {
   name: 'App',
